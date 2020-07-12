@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="{{ site.locale }}">
+
+<head>
+  <meta charset="{{ site.encoding }}" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>{{ page.title }} - {{ site.name }}</title>
+
+  <style>
+  body {
+    background-color: #fff0f0;
+    color: #ff6e6e;
+    font-family: "Muli", sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+  }
+
+  .code, .message {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .code::after {
+    content: "|";
+    padding: 0 10px 0 10px;
+  }
+  </style>
+</head>
+
+<body>
+
+  {{ content }}
+
+</body>
+
+</html>
