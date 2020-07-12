@@ -1,10 +1,10 @@
   <meta name="description" content="{{ site.description }}" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:locale" content="{{ site.locale }}" />
-  {% if page.description %}
+{% if page.description %}
   <meta property="og:description" content="{{ page.description }}" />
-  {% else %}
+{% else %}
   <meta property="og:description" content="{{ site.description }}" />
-  {% endif %}
-  <meta property="og:url" content="https://tutorial.etherio.net/" />
+{% endif %}
+  <meta property="og:url" content="https://{{ site.baseUrl }}/{{ page.url }}" />
   <meta property="og:site_name" content="{{ site.name }}" />
