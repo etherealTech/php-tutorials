@@ -5,7 +5,7 @@ encoding: UTF-8
 locale: en-MM
 timezone: Asia/Yangon
 
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
 
 exclude:
   - CNAME
