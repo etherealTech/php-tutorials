@@ -1,4 +1,4 @@
-# For Windows OS
+# For Mac OS
 
 ## Contents
 

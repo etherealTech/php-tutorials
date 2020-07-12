@@ -1,0 +1,4 @@
+id, package, current, os, url
+1, php, 7.4.8, windows, https://windows.php.net/downloads/releases/php-%s-Win32-vc15-x%d.zip
+2, vc_redist, 2015, https://etherealtech.github.io/php-tutorials/downloads/vc%s_redist.x%d.exe
+
