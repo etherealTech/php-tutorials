@@ -1,7 +1,8 @@
 name: Ethereal
 description: Sharing knowledges of Programing
-encoding: utf-8
+baseUrl: tutorial.etherio.net
 
+encoding: utf-8
 locale: en-US
 timezone: Asia/Rangoon # alias Asia/Yangon
 
