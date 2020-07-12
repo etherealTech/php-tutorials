@@ -1,0 +1,5 @@
+*   text=auto
+
+LICENSE         export-ignore
+.github/        export-ignore
+docs/downloads/ export-ignore
