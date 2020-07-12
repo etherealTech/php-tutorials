@@ -1,0 +1,8 @@
+ol,ul {
+  list-style: none;
+}
+
+footer p {
+  font-size: 1.2rem;
+  font-family: Consolas, 'Source Code Pro', 'Ubuntu Mono', monospace;
+}
