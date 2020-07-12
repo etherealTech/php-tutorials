@@ -1,3 +1,10 @@
+name: Ethereal
+description: Sharing knowledges of Programing
+encoding: UTF-8
+
+locale: en-MM
+timezone: Asia/Yangon
+
 theme: jekyll-theme-slate
 
 exclude:
