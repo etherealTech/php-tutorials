@@ -1,9 +1,9 @@
 name: Ethereal
 description: Sharing knowledges of Programing
-encoding: UTF-8
+encoding: utf-8
 
-locale: en-MM
-timezone: Asia/Yangon
+locale: en-US
+timezone: Asia/Rangoon # alias Asia/Yangon
 
 # theme: jekyll-theme-slate
 
@@ -11,3 +11,10 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+
+defaults:
+  -
+    scope:
+      path: "" # all files in the project
+    values:
+      layout: "master"
